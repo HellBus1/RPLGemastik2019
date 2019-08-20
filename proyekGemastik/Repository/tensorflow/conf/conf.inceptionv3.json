@@ -1,0 +1,17 @@
+{
+	"model"           : "inceptionv3",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "../RGB",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "inceptionv3/features.h5",
+	"labels_path"     : "inceptionv3/labels.h5",
+	"results"         : "inceptionv3/results.txt",
+	"classifier_path" : "inceptionv3/classifier.pickle",
+	"model_path"	  : "inceptionv3/model",
+
+	"test_size"       : 0.30,
+	"seed"            : 9,
+	"num_classes"     : 42
+}

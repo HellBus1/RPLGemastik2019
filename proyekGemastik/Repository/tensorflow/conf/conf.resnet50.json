@@ -1,0 +1,17 @@
+{
+	"model"           : "resnet50",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "../RGB",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "resnet50/features.h5",
+	"labels_path"     : "resnet50/labels.h5",
+	"results"         : "resnet50/results.txt",
+	"classifier_path" : "resnet50/classifier.pickle",
+	"model_path"	  : "resnet50/model",
+
+	"test_size"       : 0.30,
+	"seed"            : 9,
+	"num_classes"     : 42
+}

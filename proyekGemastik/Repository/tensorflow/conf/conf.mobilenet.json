@@ -1,0 +1,17 @@
+{
+	"model"           : "mobilenet",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "..\\RGB",
+	"test_path"		  : "test",
+	"features_path"   : "mobilenet\\features.h5",
+	"labels_path"     : "mobilenet\\labels.h5",
+	"results"         : "mobilenet\\results.txt",
+	"classifier_path" : "mobilenet\\classifier.pickle",
+	"model_path"	  : "mobilenet\\model",
+
+	"test_size"       : 0.3,
+	"seed"            : 9,
+	"num_classes"     : 42
+}

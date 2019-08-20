@@ -1,0 +1,17 @@
+{
+	"model"           : "vgg19",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "../RGB",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "vgg19/features.h5",
+	"labels_path"     : "vgg19/labels.h5",
+	"results"         : "vgg19/results.txt",
+	"classifier_path" : "vgg19/classifier.pickle",
+	"model_path"	  : "vgg19/model",
+
+	"test_size"       : 0.30,
+	"seed"            : 9,
+	"num_classes"     : 42
+}

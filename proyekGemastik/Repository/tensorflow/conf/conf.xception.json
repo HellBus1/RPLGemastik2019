@@ -1,0 +1,17 @@
+{
+	"model"           : "xception",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "../RGB",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "xception/features.h5",
+	"labels_path"     : "xception/labels.h5",
+	"results"         : "xception/results.txt",
+	"classifier_path" : "xception/classifier.pickle",
+	"model_path"	  : "xception/model",
+
+	"test_size"       : 0.30,
+	"seed"            : 9,
+	"num_classes"     : 42
+}

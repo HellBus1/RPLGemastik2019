@@ -1,0 +1,17 @@
+{
+	"model"           : "inceptionresnetv2",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "../RGB",
+	"test_path"		  : "dataset/test",
+	"features_path"   : "inceptionresnetv2/features.h5",
+	"labels_path"     : "inceptionresnetv2/labels.h5",
+	"results"         : "inceptionresnetv2/results.txt",
+	"classifier_path" : "inceptionresnetv2/classifier.pickle",
+	"model_path"	  : "inceptionresnetv2/model",
+
+	"test_size"       : 0.30,
+	"seed"            : 9,
+	"num_classes"     : 42
+}
